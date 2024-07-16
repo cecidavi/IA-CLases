@@ -44,7 +44,7 @@ while True:
         cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
 
     # Mostrar el número de rostros detectados
-    cv2.putText(frame, f"Rostros detectados: {len(faces)}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
+    cv2.putText(frame, f"Rostros detectados: {len(faces)}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0), 2)
 
     # Mostrar la imagen con las detecciones
     cv2.imshow('Detector de Rostros', frame)
